@@ -22,7 +22,7 @@ nav{
 }
 
 body{
-    background-color: rgba(252, 236, 64, 0.73);
+    background-image: linear-gradient(to bottom, #FAE714, #5C5507 );
     font-family: var(--fonte-padrao);
     text-align: center;
     margin: 50px;
@@ -45,20 +45,36 @@ header > p{
 main > h2{
     color: black;
     font-family: var(--fonte-padrao);
+    font-size: 30px;
 }
 
-div{
+div#countdow{
     background-color: white;
+    display: inline-block;
+    width: 825px;
+    height: 70px;
     
 }
 
 div > span {
-    color: red
+    color: red;
+    
 }
 
 .countdow{
     font-size: 24px;
     font-weight: bold;
+    
+}
+
+div.picture{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 195px;
+    height: 150px;
+    
 }
 
 footer{
