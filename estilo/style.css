@@ -12,10 +12,10 @@
     --fonte-vitto: ;
 }
 
-*{
+/**{
     margin: 0px;
     padding: 0px;
-}
+}*/
 
 nav{
     background-color: #978c11;
@@ -25,7 +25,7 @@ body{
     background-image: linear-gradient(to bottom, #FAE714, #5C5507 );
     font-family: var(--fonte-padrao);
     text-align: center;
-    margin: 50px;
+    margin: 05px;
 }
 
 header{
