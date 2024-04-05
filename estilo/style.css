@@ -19,10 +19,16 @@
 }
 
 nav{
-    display: flex;
+    flex: 1 1 100vw;
+    /*align-items: center;
+    justify-content: flex-end;*/
     background-color: #978c11;
 }
-nav.imgı
+
+/*nav a {
+    margin: 5%;
+    font-size: 20pt;
+}*/
 
 body{
     display: flex;
@@ -35,6 +41,10 @@ body{
 header{
     display: flex;
     background-color: #ADA00E;
+}
+
+header #logo{
+    flex: 0 1 200px;
 }
 
 header > h1{
