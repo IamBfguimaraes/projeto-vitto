@@ -12,17 +12,20 @@
     --fonte-vitto: ;
 }
 
-/**{
+*{
     margin: 0px;
     padding: 0px;
-}*/
+    box-sizing: border-box;
+}
 
 nav{
+    display: flex;
     background-color: #978c11;
 }
 nav.imgı
 
 body{
+    display: flex;
     background-image: linear-gradient(to bottom, #FAE714, #5C5507 );
     font-family: var(--fonte-padrao);
     text-align: center;
@@ -30,26 +33,31 @@ body{
 }
 
 header{
+    display: flex;
     background-color: #ADA00E;
 }
 
 header > h1{
+    display: flex;
     color: black;
     font-family: var(--fonte-destaque);
 }
 
 header > p{
+    display: flex;
     color: black;
     font-family: var(--fonte-padrao);
 }
 
 main > h2{
+    display: flex;
     color: black;
     font-family: var(--fonte-padrao);
     font-size: 30px;
 }
 
 div#countdow{
+    display: flex;
     background-color: white;
     display: inline-block;
     width: 825px;
@@ -58,11 +66,13 @@ div#countdow{
 }
 
 div > span {
+    display: flex;
     color: red;
     
 }
 
 .countdow{
+    display: flex;
     font-size: 24px;
     font-weight: bold;
     
@@ -79,6 +89,7 @@ div.picture{
 }
 
 footer{
+    display: flex;
     background-color: #5C5507;
     color: white;
 
